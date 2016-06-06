@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.yzl.lib.PullLeftToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/plrl"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    app:footerBgColor="@color/yellow">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="横着走啊" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</com.android.yzl.lib.PullLeftToRefreshLayout>
