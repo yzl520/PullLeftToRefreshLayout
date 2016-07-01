@@ -36,7 +36,7 @@ public class PullLeftToRefreshLayout extends FrameLayout {
     /**
      * MoreView移动的最大距离
      */
-    private static final float MORE_VIEW_MOVE_DIMEN = 130;
+    private static float MORE_VIEW_MOVE_DIMEN;
     private static final int ROTATION_ANGLE  = 180;
 
     private static String SCAN_MORE;
@@ -87,6 +87,7 @@ public class PullLeftToRefreshLayout extends FrameLayout {
 
     private void init(Context context, AttributeSet attrs) {
         mPullWidth = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 100, context.getResources().getDisplayMetrics());
+        MORE_VIEW_MOVE_DIMEN = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40, context.getResources().getDisplayMetrics());
         mFooterWidth = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 20, context.getResources().getDisplayMetrics());
         moreViewMarginRight = -getResources().getDimensionPixelSize(R.dimen.dp_26);
         SCAN_MORE = getResources().getString(R.string.scan_more);
